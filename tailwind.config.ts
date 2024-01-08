@@ -13,6 +13,15 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      keyframes:{
+        marquee: {
+          '0%': { transform: 'translate3d(0, 0, 0)' },
+          '100%': { transform: 'translate3d(calc(-50% - 16px), 0, 0)' },
+        }
+      },
+      animation: {
+        marquee: 'marquee 20s linear infinite',
+      }
     },
   },
   plugins: [],

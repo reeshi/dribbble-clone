@@ -3,7 +3,7 @@ import { ChevronDown, Search } from 'lucide-react';
 
 export default function Navbar() {
     return (
-        <nav className='flex justify-between items-center px-8 py-6 bg-[#F8F7F4]'>
+        <nav className='flex justify-between items-center px-8 py-6'>
             <div className='flex gap-9 text-sm font-semibold'>
                 <div>
                     <a href="./">Find talent</a>
